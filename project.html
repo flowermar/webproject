@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
+        <title>Hotel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery-3.1.1.min.js"></script>
+        
+        <script src="jquery.slides.min.js"></script>
+
+    </head>
+    <body>
+        <header>
+    <div id="nav">
+        
+        <ul> 
+            <li><img src="logo.png" alt="hotelLogo" hight="50px" width="50px"/></li> 
+            <li><a href="project.html"/> Home</a></li> 
+            <li><a href="aboutUs.html"/> About</a></li> 
+            <li><a href="contactUs.html"/>  Contact us</a></li>
+            <li> <a href="serchHotel.html">Hotel Description</a></li>
+            <li class="right"><a href="registration.html"/> User Registration</a></li>
+            <li class="right"><a href="loginPage.html"/> Login</a></li>
+        </ul>   
+    </div>
+        </header>
+        <section>
+            <h1> Welcome to Deluxe Hotel</h1>
+            <div id="slides">        
+                <img src="des1.jpg"/>
+                <img src="des2.png"/>
+                <img src="hotel1.jpg"/>
+                <img src="hotel2.jpg"/>
+                <img src="hotel3.JPG"/>
+                
+                <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left"></i></a>
+                <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right"></i></a>
+            </div>
+            
+        </section>
+            <script>
+                $(function(){
+                  $("#slides").slidesjs({
+                    width: 920,
+                    height: 320,
+                    navigation:false
+                  });
+                });
+            </script>
+        
+ <footer>
+            
+     <div class="info">
+        <div class="left">
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="serchHotel.html">Search Hotels</a></li>
+
+
+            </ul>
+
+        </div>
+        <div class="centered">
+            <a href="https://plus.google.com/"><img src="google.png" alt="Google+" hight="30px" width="30px"></a>
+            <a href="https://www.instagram.com/"><img src="instagram.png" alt="instagram" hight="30px" width="30px"></a>
+            <a href="https://www.linkedin.com"><img src="linkedin.png" alt="Linkedin" hight="30px" width="30px"></a>
+            <br/>
+            <a href="https://twitter.com/"><img src="twitter.png" alt="twitter" hight="30px" width="30px"></a>
+            <a href="https://www.youtube.com/"><img src="youtube.png" alt="youtube" hight="30px" width="30px"></a>
+            <a href="https://www.facebook.com"><img src="facebook.png" alt="facebook" hight="30px" width="30px"></a>
+        </div>     
+     </div>
+         <div class="copyright">
+         <p>copyright © 2016</p>
+         
+         </div>   
+ </footer>
+        
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 19, 2016, 2:15:32 PM
+    Author     : Hawra
+*/
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4D648D;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+    background-color: #152C55;
+}
+#nav .right{
+    float: right;
+}
+#nav .left{
+    float:left;
+}
+
+h3,h4,label{color: darkblue;}
+            
+
+#loginfo{
+         padding: 2%;
+         }
+.login{display: inline-block;
+       padding: 1%;}
+
+#pinfo{ 
+       padding: 2%;
+      }
+#perf{
+    width:101px; 
+      height: 22px;}
+.s{
+    display: inline-block;
+   padding-right: 4%;}
+
+#contact{ 
+         padding: 2%;
+        }
+.d
+{
+    display: inline-block;
+   padding-right: 1%;
+}
+#tphon
+{
+    width:103px;
+    height: 22px;
+}
+#z
+{
+    padding-left: 40%;
+}
+button
+{
+    width: 90px;
+    height: 30px;
+    background-color: lightyellow;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4D648D;
+   display: block;
+    
+}
+footer li a:hover {
+  
+}
+footer li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.info {
+     background-color: #4D648D;
+    position: relative;
+	overflow: hidden;
+        
+}
+
+.wrap {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+footer a,
+footer h3 {
+    font: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 26px;
+ }
+
+.clear {
+    clear: both;
+}
+
+footer .left {
+    text-align: left;
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+
+footer .right {
+    float: right;
+    text-align: left;
+    font: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 26px;
+    width: 33%;
+    padding: 20px;
+}
+    
+footer .centered {
+    text-align: left;
+    width: 33%;
+    float: left;
+    padding: 20px;
+}
+

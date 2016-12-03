@@ -1,0 +1,162 @@
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 16, 2016, 6:09:48 PM
+    Author     : Hawra
+*/
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4D648D;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+    background-color: #152C55;
+}
+#nav .right{
+    float: right;
+}
+#nav .left{
+    float:left;
+}
+
+.info{
+       color: darkblue;}
+
+#regist {
+         background-color:buttonhighlight;
+         align:center;
+         display:inline-block;
+         margin: 0 auto;
+          width: 400px;
+        padding-left: 30%;
+        padding-right: 40%;}
+#distnation{
+            padding: 2%;
+            align:center;}
+#diec{width: 200px; height: 20px;}
+#roomtype{padding: 2%;
+            align:center;}
+
+#check{
+      display: inline-block;
+      padding: 2%;
+      width: 200px;
+      }
+#c1{float: left;}
+#in{width: 200px; height: 20px;}
+#c2{float: right;}
+#out{width: 200px; height: 20px;}
+#room{
+      display: inline-block;
+      padding: 2%;
+      width: 200px;
+      }
+#rtype{width: 200px; height: 20px;}
+#adu{width: 40px; height: 15px;}
+#a1{float:left;}
+#chil{width: 40px; height: 15px;}
+#a2{ float: right;}
+#tb{ display: inline-block;
+      padding: 2%;
+      width: 200px; 
+}    
+#boton{background-color: lightyellow;
+       color: darkblue;
+       width: 130px; height: 30px;    
+       align-items: center;
+       padding: 2%;
+       float: right;
+       
+       }
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4D648D;
+   display: block;
+    
+}
+footer li a:hover {
+  
+}
+footer li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+footer {
+     background-color: #4D648D;
+    position: relative;
+	overflow: hidden;
+        
+}
+
+.wrap {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+footer a,
+footer h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 26px;
+ }
+
+.clear {
+    clear: both;
+}
+
+footer .left {
+    text-align: left;
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+
+footer .right {
+    float: right;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 26px;
+    width: 33%;
+    padding: 20px;
+}
+    
+footer .centered {
+    text-align: left;
+    width: 33%;
+    float: left;
+    padding: 20px;
+   
+}
+
